@@ -1,6 +1,7 @@
-public struct MyFramework2 {
-    public private(set) var text = "Hello, World!"
+import Foundation
 
-    public init() {
+public struct MyFramework2 {
+    public static func logTime() {
+        print("The time is \(Date())")
     }
 }
